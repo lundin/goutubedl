@@ -253,6 +253,7 @@ func infoFromURL(ctx context.Context, rawURL string, options Options) (info Info
 		"--no-call-home",
 		"--no-cache-dir",
 		"--skip-download",
+		"--dateafter today-2days",
 		"--restrict-filenames",
 		// provide URL via stdin for security, youtube-dl has some run command args
 		"--batch-file", "-",
