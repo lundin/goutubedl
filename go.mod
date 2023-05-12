@@ -10,4 +10,4 @@ require (
 	// bump: osleaktest command go get -d github.com/wader/osleaktest && go mod tidy
 	github.com/wader/osleaktest v0.0.0-20191111175233-f643b0fed071
 )
-replace github.com/wader/goutubedl => github.com/lundin/goutubedl master
+replace github.com/wader/goutubedl master => github.com/lundin/goutubedl master
